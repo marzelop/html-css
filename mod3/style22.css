@@ -1,7 +1,36 @@
 @charset "UTF-8";
 
-body {
-    background-image: url('https://images.vexels.com/media/users/3/189928/isolated/preview/5a8623fc09b4e1bd711b402cafe7299b-pose-de-vetor-de-stickman.png');
-    background-size:  10%;
-    background-repeat:  no-repeat;
+table {
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+.zebra tr:nth-child(2n) td{
+    background-color: lightgray;
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    width: 50px;
+}
+
+#filmes th {
+    background-color: gray;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+
+#notas thead th {
+    background-color: gray;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+
+#notas tr.result {
+    background-color: gray;
+    color: white;
+    text-shadow: 1px 1px 0px black;
 }
