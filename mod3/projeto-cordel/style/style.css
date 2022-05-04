@@ -50,6 +50,10 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
+section {
+    display: block;
+}
+
 section p {
     font-size: 3vw;
     font-family: Sriracha, cursive;
@@ -61,7 +65,7 @@ section p {
 section.image {
     background-attachment: fixed;
     background-size: cover;
-    padding: 50px 0px;
+    padding: 25px 0px;
 }
 
 section.image p {
