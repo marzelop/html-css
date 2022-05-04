@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
-div.quadrado {
-    border: 1px solid black;
+body {
+    background-image: url('https://images.vexels.com/media/users/3/189928/isolated/preview/5a8623fc09b4e1bd711b402cafe7299b-pose-de-vetor-de-stickman.png');
+    background-size:  10%;
+    background-repeat:  no-repeat;
 }
